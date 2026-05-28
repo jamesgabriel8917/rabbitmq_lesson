@@ -17,6 +17,12 @@ public class OrderItem {
     public OrderItem() {
     }
 
+    public OrderItem(BigDecimal price, String product, Integer quantity) {
+        this.price = price;
+        this.product = product;
+        this.quantity = quantity;
+    }
+
     public BigDecimal getPrice() {
         return price;
     }
